@@ -1,0 +1,74 @@
+{
+    "name": "ActionsMap",
+    "maps": [
+        {
+            "name": "KM",
+            "id": "860fcff1-8819-4654-850b-d6e236b28459",
+            "actions": [
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "9ed7e3e9-4608-49cf-8743-6de7cc6e759f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Hover",
+                    "type": "Value",
+                    "id": "ac1c80e9-8a65-4d50-8b07-a1615a996a60",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "fe3fedab-f437-495e-9c7a-10f67da27665",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c0b44589-b3d1-46d7-bf5d-359d4561c980",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "43e382aa-7d2c-4f59-be6f-46ad2ddac566",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Hover",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b21c9ef6-5fac-4cb1-bf48-efe1a8f1b2fa",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
